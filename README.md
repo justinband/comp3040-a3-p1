@@ -22,32 +22,31 @@ This API will return a response containing public or outdoor hockey rinks in Man
 ``` json
 {
     "southdale": {
-        "rink": "southdale",
-        "postal": "r3n0f3",
-        "numRinks": "2",
-        "openingTime": "0900",
-        "closingTime": "2000",
-        "distance": "6"
+        "rink":"southdale",
+        "postal":"r3n0f3",
+        "numRinks":2,
+        "openingTime":"0900",
+        "closingTime":"2000",
+        "distance":6
     },     
     
     "Keith Bodley Arena": { 
-        "rink:"Keith Bodley Arena"
-        "postalCode":"R3T2K1",
-        "numRink":"1",
-	"openingTime:"0800"
-	"closingTime:"2300"
-        "distance:4"
-      },
-      
-    "winakwa": {
-        "rink": "winakwa",
-        "postal": "r2j4d1",
-        "numRinks": "3",
-        "openingTime": "1000",
-        "closingTime": "2200",
-        "distance": "7"
+        "rink":"Keith Bodley Arena",
+        "postalCode":"r3t2k1",
+        "numRink":1,
+	"openingTime":"0800",
+	"closingTime":"2300",
+        "distance":4
     },
-    "status": "OK"
+    "winakwa": {
+        "rink":"winakwa",
+        "postal":"r2j4d1",
+        "numRinks":3,
+        "openingTime":"1000",
+        "closingTime":"2200",
+        "distance":7
+    },
+    "status":"OK"
 }
 ```
 
@@ -60,4 +59,4 @@ This API will return a response containing public or outdoor hockey rinks in Man
 | `numRinks`    |   int  | the number of hockey rinks available |
 | `openingTime`| string | the opening time of the rink    |
 | `closingTime`| string | the closing time of the rink    |
-| `distance`| string | the distance to the rink from input location    |
+| `distance`| int | the distance to the rink from input location    |
