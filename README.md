@@ -26,8 +26,8 @@ This API will return a response containing public or outdoor hockey rinks in Man
       	"rink":"southdale",
 	"postal":"r3n0f3",
 	"numRinks:"2",
-	"openingTime:"0900"
-	"closingTime:"2000"
+	"openingTime:"0900",
+	"closingTime:"2000",
 	"distance":"6"
 	},
 	
@@ -36,8 +36,8 @@ This API will return a response containing public or outdoor hockey rinks in Man
 	"rink":"winakwa",
 	"postal":"r2j4d1",
 	"numRinks:"3",
-	"openingTime:"1000"
-	"closingTime:"2200"
+	"openingTime:"1000",
+	"closingTime:"2200",
 	"distance":"7"
 	},
       
