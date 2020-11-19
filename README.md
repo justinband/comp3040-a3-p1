@@ -21,6 +21,22 @@ This API will return a response containing public or outdoor hockey rinks in Man
 
 ```
 {
+      "southdale":
+      {
+        "rink":"southdale",
+        "numRinks:"2",
+	"openingTime:"0900"
+	"closingTime:"2000"
+      },
 
-}
+	"winakwa":
+      {
+        "rink":"winakwa",
+        "numRinks:"3",
+	"openingTime:"1000"
+	"closingTime:"2200"
+      },
+
+       "status":"OK"
+ }
 ```
