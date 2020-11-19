@@ -1,6 +1,6 @@
 # Hockey Rinks in Manitoba
 
-This API will return a response containing public or outdoor hockey rinks in Manitoba, based upon the input parameters given.
+This API will return a response containing public or outdoor hockey rinks in Manitoba, based upon the input parameters given. A search begins based on the input parameter `postalcode`.
 
 ## Endpoint(s)
 
