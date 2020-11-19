@@ -8,11 +8,11 @@ This API will return a response containing public or outdoor hockey rinks in Man
 
 ### Parameters
 
-`postalCode` location
-
-`radius` Distance to search
-
-`number` Number of rinks to get 
+| Parameter   |  Type  |          Description          |
+|-------------|--------|------------------------------|
+| `postalcode`| string | location to base search on    |
+| `radius`    |   int  | search radius in km           |
+| `number`    |   int  | number of hockey rinks to get |
 
 ## Sample Request
 
