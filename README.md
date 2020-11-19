@@ -36,7 +36,7 @@ This API will return a response containing public or outdoor hockey rinks in Man
         "numRink": "1",
 	"openingTime": "0800"
 	"closingTime": "2300"
-        "distance": 4"
+        "distance": "4"
       },
       
     "winakwa": {
