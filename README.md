@@ -16,6 +16,7 @@ This API will return a response containing public or outdoor hockey rinks in Man
 
 ## Sample Request
 
+`https://api.hockeyrinks.org/rinks?postalcode="r3x0h9"&radius=10&number=2`
 
 ## Sample Response
 
@@ -51,11 +52,11 @@ This API will return a response containing public or outdoor hockey rinks in Man
 
 ## Response parameters
 
-| Response   |  Type  |          Description          |
-|-------------|--------|------------------------------|
-| `rink`| string | the name of the hockey rink    |
-| `postal`    |   string  | the postal code of the hockey rink          |
-| `numRinks`    |   int  | the number of hockey rinks available |
-| `openingTime`| string | the opening time of the rink    |
-| `closingTime`| string | the closing time of the rink    |
-| `distance`| int | the distance to the rink from input location    |
+| Response     |  Type  |          Description                                       |
+|--------------|--------|------------------------------------------------------------|
+| `rink`       | string | the name of the hockey rink                                |
+| `postal`     | string | the postal code of the hockey rink                         |
+| `numRinks`   | int    | the number of hockey rinks available                       |
+| `openingTime`| string | the opening time of the rink                               |
+| `closingTime`| string | the closing time of the rink                               |
+| `distance`   | int    | the distance to the rink from input location in kilometers |
