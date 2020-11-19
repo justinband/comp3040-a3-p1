@@ -16,6 +16,7 @@ This API will return a response containing public or outdoor hockey rinks in Man
 
 ## Sample Request
 
+`https://api.hockeyrinks.org/json?postalCode=r3x0h9&radius=10?rinks=2`
 
 ## Sample Response
 
