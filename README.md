@@ -28,7 +28,18 @@ This API will return a response containing public or outdoor hockey rinks in Man
         "openingTime": "0900",
         "closingTime": "2000",
         "distance": "6"
-    },
+    },     
+    
+    "Keith Bodley Arena":
+      { 
+        "rink:"Keith Bodley Arena"
+        "postalCode":"R3T2K1",
+        "numRink":"1",
+	    "openingTime:"0800"
+	    "closingTime:"2300"
+        "distance:4"
+
+      },
     "winakwa": {
         "rink": "winakwa",
         "postal": "r2j4d1",
