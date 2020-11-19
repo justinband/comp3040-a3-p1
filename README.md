@@ -19,7 +19,7 @@ This API will return a response containing public or outdoor hockey rinks in Man
 
 ## Sample Response
 
-```
+``` json
 {
       "southdale":
 	{
