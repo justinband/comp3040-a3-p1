@@ -8,15 +8,14 @@ This API will return a response containing public or outdoor hockey rinks in Man
 
 ### Parameters
 
-| Parameter   |  Type  |          Description          |
-|-------------|--------|------------------------------|
-| `postalcode`| string | location to base search on    |
-| `radius`    |   int  | search radius in km           |
-| `number`    |   int  | number of hockey rinks to get |
+| Parameter   |  Type  | Required |        Description            |
+|-------------|--------|----------|-------------------------------|
+| `postalcode`| string | YES      | location to base search on    |
+| `radius`    |   int  | YES      | search radius in km           |
+| `number`    |   int  | NO       | number of hockey rinks to get |
 
 ## Sample Request
 
-`https://api.hockeyrinks.org/rinks?postalCode=r3x0h9&radius=10?rinks=2`
 
 ## Sample Response
 
@@ -30,8 +29,7 @@ This API will return a response containing public or outdoor hockey rinks in Man
         "closingTime":"2000",
         "distance":6
     },     
-    
-    "Keith Bodley Arena": { 
+    "keith bodley arena": { 
         "rink":"Keith Bodley Arena",
         "postalCode":"r3t2k1",
         "numRink":1,
