@@ -50,3 +50,14 @@ This API will return a response containing public or outdoor hockey rinks in Man
     "status": "OK"
 }
 ```
+
+## Response parameters
+
+| Response   |  Type  |          Description          |
+|-------------|--------|------------------------------|
+| `rink`| string | the name of the hockey rink    |
+| `postal`    |   string  | the postal code of the hockey rink          |
+| `numRinks`    |   int  | the number of hockey rinks available |
+| `openingTime`| string | the opening time of the rink    |
+| `closingTime`| string | the closing time of the rink    |
+| `distance`| string | the distance to the rink from input location    |
