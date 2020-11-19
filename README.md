@@ -24,26 +24,26 @@ This API will return a response containing public or outdoor hockey rinks in Man
 {
     "southdale": {
         "rink":"southdale",
-        "postal":"r3n0f3",
+        "postalcode":"r3n0f3",
         "numRinks":2,
-        "openingTime":"0900",
-        "closingTime":"2000",
+        "openingtime":"0900",
+        "closingtime":"2000",
         "distance":6
     },     
     "keith bodley arena": { 
         "rink":"Keith Bodley Arena",
-        "postalCode":"r3t2k1",
+        "postalcode":"r3t2k1",
         "numRink":1,
-	"openingTime":"0800",
-	"closingTime":"2300",
+	"openingtime":"0800",
+	"closingtime":"2300",
         "distance":4
     },
     "winakwa": {
         "rink":"winakwa",
-        "postal":"r2j4d1",
+        "postalcode":"r2j4d1",
         "numRinks":3,
-        "openingTime":"1000",
-        "closingTime":"2200",
+        "openingtime":"1000",
+        "closingtime":"2200",
         "distance":7
     },
     "status":"OK"
@@ -52,11 +52,11 @@ This API will return a response containing public or outdoor hockey rinks in Man
 
 ## Response parameters
 
-| Response     |  Type  |          Description                                       |
-|--------------|--------|------------------------------------------------------------|
-| `rink`       | string | the name of the hockey rink                                |
-| `postal`     | string | the postal code of the hockey rink                         |
-| `numRinks`   | int    | the number of hockey rinks available                       |
-| `openingTime`| string | the opening time of the rink                               |
-| `closingTime`| string | the closing time of the rink                               |
-| `distance`   | int    | the distance to the rink from input location in kilometers |
+| Response     |  Type  |          Description                               |
+|--------------|--------|----------------------------------------------------|
+| `rink`       | string | the name of the hockey rink                        |
+| `postalcode` | string | the postal code of the hockey rink                 |
+| `numRinks`   | int    | the number of hockey rinks available               |
+| `openingtime`| string | the opening time of the rink                       |
+| `closingtime`| string | the closing time of the rink                       |
+| `distance`   | int    | the distance to the rink from input location in km |
