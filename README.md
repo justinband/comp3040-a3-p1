@@ -1,8 +1,12 @@
 # Hockey Rinks in Manitoba
 
-This API will return a response containing public or outdoor hockey rinks in Manitoba, based upon the input parameters given. A search begins based on the input parameter `postalcode`.
+This API provides information about public or outdoor hockey rinks in Manitoba based on a given postal code and search radius (in km). An integer can also be given to specify the number of hockey rinks to return. A search for hockey rinks will revolve around the postal code provided.
+
+The hockey rink information given in the response will contain the number of rinks at a given location, the name of the rinks, and their operating hours. More about the response can be found in the [sample response](#sample-response) section.
 
 ## Endpoint(s)
+
+Our API is very simple, as there is only one endpoint. This endpoint can be hit using a GET request.
 
 `GET /rinks` List all hockey rinks in Manitoba
 
@@ -16,9 +20,25 @@ This API will return a response containing public or outdoor hockey rinks in Man
 
 ## Sample Request
 
-`https://api.hockeyrinks.org/rinks?postalcode="r3x0h9"&radius=10&number=1`
+These are some sample requests to get information about hockey ricks for a given postal code and search radius.
+
+```
+https://api.hockeyrinks.org/rinks?postalcode="r3x0h9"&radius=10&number=1
+
+https://api.hockeyrinks.org/rinks?postalcode="r2n2r9"&radius=3
+```
+
+A request can also be made with no parameters to get all the hockey rinks in Manitoba.
+
+```
+https://api.hockeyrinks.org/rinks
+```
 
 ## Sample Response
+
+The response is formatted in JSON. The response will contain information regarding where the hockey rink is located, the hours of operation, the number of rinks at the location, and the distance (in km) from the postal code sent in the request. 
+
+The type definitions for the object can be seen [here](#response-object-type-definitions).
 
 ``` json
 {
@@ -50,7 +70,9 @@ This API will return a response containing public or outdoor hockey rinks in Man
 }
 ```
 
-## Response parameters
+### Response Object Type Definitions
+
+The type definitions for the response JSON object:
 
 | Response     |  Type  |          Description                               |
 |--------------|--------|----------------------------------------------------|
