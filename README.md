@@ -23,7 +23,7 @@ This API will return a response containing public or outdoor hockey rinks in Man
 ``` json
 {
     "southdale": {
-        "rink":"southdale",
+        "rink":"Southdale Community Centre",
         "postalcode":"r3n0f3",
         "numRinks":2,
         "openingtime":"0900",
@@ -39,7 +39,7 @@ This API will return a response containing public or outdoor hockey rinks in Man
         "distance":4
     },
     "winakwa": {
-        "rink":"winakwa",
+        "rink":"Winakwa Community Centre",
         "postalcode":"r2j4d1",
         "numRinks":3,
         "openingtime":"1000",
