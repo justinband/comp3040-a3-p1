@@ -16,7 +16,7 @@ Our API is very simple, as there is only one endpoint. This endpoint can be hit 
 |-------------|--------|----------|-------------------------------|
 | `postalcode`| string | YES      | location to base search on    |
 | `radius`    |   int  | YES      | search radius in km           |
-| `minrinks`    |   int  | NO       | minimum number of hockey rinks to get |
+| `minRinks`    |   int  | NO       | minimum number of hockey rinks to get |
 
 ## Sample Request
 
